@@ -337,7 +337,7 @@ export const joinWorkspaceService = async (workspaceId, joinCode, userId) => {
         statusCode: StatusCodes.NOT_FOUND
       });
     }
-
+    console.log(workspace.joinCode);
     if (workspace.joinCode !== joinCode) {
       throw new ClientError({
         explanation: 'Invalid data sent from the client',
