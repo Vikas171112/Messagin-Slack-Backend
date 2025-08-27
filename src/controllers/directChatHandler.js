@@ -1,4 +1,5 @@
 import { JOIN_DIRECT_CHAT } from '../utils/common/eventConstants.js';
+import { getDirectRoomId } from '../utils/common/getRoomId.js';
 
 export default function directChatHandlers(io, socket) {
   socket.on(JOIN_DIRECT_CHAT, ({ userId, friendId }, cb) => {
