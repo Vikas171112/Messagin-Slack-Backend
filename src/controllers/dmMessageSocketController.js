@@ -1,4 +1,8 @@
 import { createMessageService } from '../services/messageService';
+import {
+  RECEIVE_DIRECT_MESSAGE,
+  SEND_DIRECT_MESSAGE
+} from '../utils/common/eventConstants';
 import { getDirectRoomId } from '../utils/common/getRoomId';
 
 export default function directChatHandlers(io, socket) {

@@ -41,4 +41,4 @@ export const RAZORPAY_KEY_ID = process.env.RAZORPAY_KEY_ID;
 
 export const CURRENCY = process.env.CURRENCY || 'INR';
 
-export const RECEIPT_SECRET = process.env.RECEIPT_SECRET || 'receipt_1103';
+export const RECEIPT_SECRET = process.env.RECEIPT_SECRET || 'receipt_1123';
